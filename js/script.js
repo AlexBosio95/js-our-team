@@ -37,3 +37,9 @@ const ourTeams = [
     },
 
 ]
+
+for (let i = 0; i < ourTeams.length; i++) {
+    console.log(ourTeams[i].name)
+    console.log(ourTeams[i].role)
+    console.log(ourTeams[i].imgUrl)
+}
