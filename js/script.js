@@ -47,5 +47,5 @@ for (let i = 0; i < ourTeams.length; i++) {
     infoTeam.innerHTML += `<div class = "text-center mt-2"> 
     Name = ${ourTeams[i].name} 
     Role = ${ourTeams[i].role} 
-    Img = ${ourTeams[i].imgUrl} </div>`
+    <img src="./img/${ourTeams[i].imgUrl}" alt="title ${ourTeams[i].imgUrl}"></div>`
 }
