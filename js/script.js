@@ -38,8 +38,14 @@ const ourTeams = [
 
 ]
 
+const infoTeam = document.getElementById('info-team')
+
 for (let i = 0; i < ourTeams.length; i++) {
     console.log(ourTeams[i].name)
     console.log(ourTeams[i].role)
     console.log(ourTeams[i].imgUrl)
+    infoTeam.innerHTML += `<div class = "text-center mt-2"> 
+    Name = ${ourTeams[i].name} 
+    Role = ${ourTeams[i].role} 
+    Img = ${ourTeams[i].imgUrl} </div>`
 }
